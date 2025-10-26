@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Princess Wonders</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="icon" type="image/png" href="image/PWE logo png.png">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="image/flyer.png.jpg" alt="Princess Wonders logo">
+        <div>
+          <h1>Princess Wonders</h1>
+          <div style="font-size:13px;color:var(--muted)">Cakes • Events • Desserts • Catering </div>
+        </div>
+      </div>
+      <nav class="nav" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="event.html">Event Planning</a>
+        <a href="desserts.html">Cakes & Desserts</a>
+        <a href="catering.html">Catering</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="mobile-btn" class="mobile-toggle">
+      <div class="bar bar-1"></div>
+      <div class="bar bar-2"></div>
+      <div class="bar bar-3"></div>
+    </div>
+      </button>
+    </div>
+  </header>
+
+  <main class="container" data-aos="fade-up">
+    <section style="padding:28px 0;display:grid;grid-template-columns:1fr 380px;gap:18px" data-aos="fade-up">
+      <div>
+        <h2 style="color:var(--accent)">Get in touch</h2>
+        <p style="color:var(--muted)">Call or complete the form below — we'll get back to you within 24 hours.</p>
+
+        <form style="margin-top:16px;display:grid;gap:10px" id="contact-form" action="#" onsubmit="alert('Form is a demo. Hook up your backend or email service.'); return false;">
+          <input placeholder="Your name" required style="padding:13px 141px 9px 16px;border-radius:8px;border:1px solid #e6e6e6">
+          <input placeholder="Email or phone" required style="padding:12px;border-radius:8px;border:1px solid #e6e6e6">
+          <textarea placeholder="Message / Event details" rows="6" style="padding:12px;border-radius:8px;border:1px solid #e6e6e6"></textarea>
+          <button class="cta-btn" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <!-- AOS Animation JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

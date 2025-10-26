@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cakes & Desserts — Princess Wonders</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="icon" type="image/png" href="image/PWE logo png.png">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="image/flyer.png.jpg" alt="Princess Wonders logo">
+        <div>
+          <h1>Princess Wonders</h1>
+          <div style="font-size:13px;color:var(--muted)">Cakes • Events • Desserts • Catering</div>
+        </div>
+      </div>
+      <nav class="nav" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="event.html">Event Planning</a>
+        <a href="desserts.html">Cakes & Desserts</a>
+        <a href="catering.html">Catering</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+     <button id="mobile-btn" class="mobile-toggle">
+      <div class="bar bar-1"></div>
+      <div class="bar bar-2"></div>
+      <div class="bar bar-3"></div>
+    </div>
+      </button>
+    </div>
+  </header>
+
+  <main class="container" data-aos="fade-up">
+    <section style="padding:28px 0" data-aos="fade-up">
+      <h2 style="color:var(--accent)">Cakes, Parfait & Ice-Cream</h2>
+      <p style="color:var(--muted)">Custom celebration cakes, yoghurt parfaits, artisanal ice-cream and pastries — made fresh for your event or pickup.</p>
+
+  <div style="margin-top:18px" class="gallery" data-aos="fade-up">
+        <img src="image/Screenshot_20230331_234420_Instagram~2.jpg" alt="cake">
+        <img src="image/Screenshot_20230515_134540_Instagram.jpg" alt="parfait">
+        <img src="image/ice cream.png" alt="ice cream">
+        <img src="image/cake.cake.png" alt="cake">
+        <img src="image/Screenshot_20230528_180832_Instagram.jpg" alt="cake">
+        <img src="image/Ice_Cream_dessert_02.jpg" alt="cake">
+      </div>
+
+  <div style="margin-top:18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px" data-aos="fade-up">
+        <div class="card"><h3>Custom Cakes</h3><p>Tiered, buttercream, fondant and themed designs</p></div>
+        <div class="card"><h3>Parfaits & Yoghurt</h3><p>Layered yoghurt parfaits — great for dessert stations</p></div>
+        <div class="card"><h3>Artisanal Ice-Cream</h3><p>Small-batch flavours for events or retail</p></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- AOS Animation JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

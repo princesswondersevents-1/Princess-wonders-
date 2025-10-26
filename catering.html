@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catering — Princess Wonders</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="icon" type="image/png" href="image/PWE logo png.png">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="image/flyer.png.jpg" alt="Princess Wonders logo">
+        <div>
+          <h1>Princess Wonders</h1>
+          <div style="font-size:13px;color:var(--muted)">Cakes • Events • Desserts • Catering </div>
+        </div>
+      </div>
+      <nav class="nav" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="event.html">Event Planning</a>
+        <a href="desserts.html">Cakes & Desserts</a>
+        <a href="catering.html">Catering</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="mobile-btn" class="mobile-toggle">
+      <div class="bar bar-1"></div>
+      <div class="bar bar-2"></div>
+      <div class="bar bar-3"></div>
+    </div>
+      </button>
+    </div>
+  </header>
+  
+
+  <main class="container" data-aos="fade-up">
+    <section style="padding:28px 0" data-aos="fade-up">
+      <h2 style="color:var(--accent)">Catering Services</h2>
+      <p style="color:var(--muted)">Bespoke menus, live stations and professional service staff to suit events of 20–200+ guests.</p>
+
+  <div style="margin-top:18px" class="gallery" data-aos="fade-up">
+        <img src="image/Catering-Services-in-Nairobi.jpg" alt="cake">
+        <img src="image/catering.png" alt="parfait">
+        <img src="image/catering1.png" alt="ice cream">
+      </div>
+
+  <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:18px" data-aos="fade-up">
+        <div style="flex:1;min-width:240px" class="card"><h3>Buffet Menu</h3><p>Variety of mains, sides and salads</p></div>
+        <div style="flex:1;min-width:240px" class="card"><h3>Plated Service</h3><p>Multi-course plated meals for formal events</p></div>
+        <div style="flex:1;min-width:240px" class="card"><h3>Live Stations</h3><p>Grill, dessert or pasta stations made to order</p></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- AOS Animation JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
